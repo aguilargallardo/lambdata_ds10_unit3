@@ -27,3 +27,21 @@ def ascending(df, x):
   """
   x = x
   return df.sort_values(by=x, ascending=False)
+
+
+class Food:
+"""
+Class to type in your favorite food.
+"""
+    def __init__(self, name):
+        self.name = name
+        """
+        First argument, name your favorite food.
+        """
+
+    def change_name(self, new_name):
+        self.name = new_name
+        """
+        Second arguement change name of your favorite food.
+        """
+        
